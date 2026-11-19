@@ -35,4 +35,3 @@ jobs:
           git add scanner_state.json
           git diff --cached --quiet || git commit -m "Update scanner history"
           git push
-          
